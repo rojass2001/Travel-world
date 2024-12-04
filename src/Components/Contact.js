@@ -16,7 +16,7 @@ function Contact() {
 <div className='w-full flex place-items-center  gap-1'>
     <FaEnvelope className='text-blue-600'/>info@Travel Agency.com</div>
     <div className='w-full flex place-items-center gap-1'>
-    <FaPhoneAlt className='text-blue-600'/>+123 456 789</div> 
+    <FaPhoneAlt className='text-blue-600'/>+123 456 78</div> 
     <div className='w-full flex place-items-center gap-1'>
     <FaMapMarkerAlt className='text-blue-600'/>kerala st.marys church</div> 
     </div>  
