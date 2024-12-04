@@ -14,6 +14,7 @@ function Routings() {
  <Header/>
   <Routes>
   <Route path='/' element={<Home/>}/>
+  <Route path='/Travel-world' element={<Home/>}/>
   <Route path='/gallery' element={<Gallery/>}/>
   <Route path='/contact' element={<Contact/>}/>
   <Route path='/about' element={<About/>}/>
