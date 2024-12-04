@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Travel-world/static/css/main.50cf2678.css",
+    "main.js": "/Travel-world/static/js/main.ecd58b90.js",
+    "static/js/453.8d4e7591.chunk.js": "/Travel-world/static/js/453.8d4e7591.chunk.js",
+    "static/media/logo.svg": "/Travel-world/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Travel-world/index.html",
+    "main.50cf2678.css.map": "/Travel-world/static/css/main.50cf2678.css.map",
+    "main.ecd58b90.js.map": "/Travel-world/static/js/main.ecd58b90.js.map",
+    "453.8d4e7591.chunk.js.map": "/Travel-world/static/js/453.8d4e7591.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50cf2678.css",
+    "static/js/main.ecd58b90.js"
+  ]
+}
