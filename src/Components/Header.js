@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom'
 import { FaBars,FaTimes } from 'react-icons/fa'
 function Header() {
   const[open,setopen]=useState(false)
-  const headermenus=['Home','gallery','about','contact',]
   const headerdiv="fixed flex pr-3 justify-between w-[97%] h-[50px] bg-white top-[20px] left-0 right-0 xs:w-[100%] items-center mx-auto shadow-lg shadow-gray-700 z-50"
  const navbars=()=>{
   setopen(!open)
@@ -14,7 +13,9 @@ function Header() {
       <div className={headerdiv}>
       <h2 className=' font-bold text-black text-2xl ml-3'>Travel</h2>
       <div className=' flex text-xl font-bold cursor-pointer space-x-7   '>
+      <Link to='/'>
       <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden '>Home</p>
+      </Link>
       <Link to='/gallery'>
       <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden'>Gallery</p>
       </Link>
