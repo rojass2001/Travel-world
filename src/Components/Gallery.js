@@ -9,10 +9,9 @@ const images=['https://github.com/YousafKhan1/Images/blob/main/Images/gal1.jpg?r
 function Gallery() {
   return (
 <div className='w-full mb-2 h-full'>
-  <div className='h-96 bg-black bg-opacit-50  relative text-white font-bold  place-items-center
-    place-content-center bg-center bg-cover mb-4 ' 
+  <div className='h-96 bg-black bg-opacit-50  relative text-white font-bold   bg-center bg-cover mb-4 ' 
     style={{backgroundImage:"url('https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true')" }}>
-    <p className='text-white font-bold text-5xl'>Gallery</p>  
+    <div className='text-white font-bold text-5xl inset-0  absolute place-items-center  place-content-center'>Gallery</div>  
   </div>
     <div className='w-full  px-2 grid  grid-cols-3  gap-3 sm:grid-cols-1 md:grid-cols-2 '>
       {

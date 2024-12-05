@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaFacebook,FaInstagram,FaTwitter,FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <div className='w-full bg-gray-800   pt-6 md:pt-[120px]  '>
@@ -11,11 +12,11 @@ the world with us.</p>
     </div> 
     <div className='h-[200px]  '>
       <h1 className='text-white text-[20px]  font-bold'>quicklinks</h1>
-<div className='space-y-3   mt-7 text-white font-bold'>
-<p className='text-white '> Home </p>
-<p>Gallery</p>
-<p>Contact</p>
-<p>About</p>
+<div className=' mt-7 text-white font-bold'>
+<Link to='/'><p className='mb-2'>Home</p></Link>
+<Link to='/gallery'><p className='mb-2' >Gallery</p></Link>
+<Link to='/contact'><p className='mb-2' >Contact</p></Link>
+<Link to='/about'><p className='mb-2' > About </p></Link>
 </div>
 </div> 
 <div className='h-[200px]  text-center'>
