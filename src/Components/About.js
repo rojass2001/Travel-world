@@ -16,7 +16,7 @@ function About() {
 
     <div className='h-[350px] text-black shadow-md shadow-gray-600 p-1 '>
     <p className='text-2xl font-bold pt-3'>Who We Are</p>
-    <p className='text-sm mt-2'>We are a passionate travel agency commited to providing the best travel
+    <p className='text-sm mt-2 leading-loose'>We are a passionate travel agency commited to providing the best travel
      experiences for our clients. Our 
      team of dedicated professionals works tirelessly to ensure your trips are seamless and unforgettable
     </p>
