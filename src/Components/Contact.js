@@ -26,7 +26,7 @@ function Contact() {
    
     <p className='text-center font-bold text-xl'> Get in Contact</p>
    <p>Name</p>
-   <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter Name'/>
+   <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter Your Name'/>
    <p>Email</p>
    <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter your Email'/>
    <p>Message</p>
