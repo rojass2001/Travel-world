@@ -18,7 +18,7 @@ function Contact() {
     <div className='w-full flex place-items-center gap-1'>
     <FaPhoneAlt className='text-blue-600'/>+123 456 78</div> 
     <div className='w-full flex place-items-center gap-1'>
-    <FaMapMarkerAlt className='text-blue-600'/> st.marys church </div> 
+    <FaMapMarkerAlt className='text-blue-600'/> st.marys church,Kerala </div> 
     </div>  
     
     </div>
