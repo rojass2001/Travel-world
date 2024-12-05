@@ -28,7 +28,7 @@ function Contact() {
    <p>Name</p>
    <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter Name'/>
    <p>Email</p>
-   <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter Email'/>
+   <input className='w-[100%] h-[35px] border border-gray-400' type='text' placeholder='Enter your Email'/>
    <p>Message</p>
    <textarea  className='w-full border decoration-none h-[60px] border-gray-400' placeholder='write message'></textarea>
    <button className='bg-blue-600 px-2 mt-1 h-[35px] text-white text-sm'>Send Message</button>
