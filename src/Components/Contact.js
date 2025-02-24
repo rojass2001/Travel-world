@@ -3,11 +3,12 @@ import { FaEnvelope,FaPhoneAlt ,FaMapMarkerAlt, } from 'react-icons/fa'
 function Contact() {
   return (
     <div className='w-full  '>
-    <div className='h-96  bg-black bg-opacity-50  relative text-white font-bold  bg-center bg-cover mb-7 ' 
- style={{backgroundImage:"url('https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true')" }}>
-    <div className='text-white font-bold text-5xl inset-0  absolute place-items-center  place-content-center
-    '>Contact</div>  
+   <div className='w-full h-[500px] md:h-[500px]     text-white font-bold 
+     bg-center bg-cover mb-7  flex items-center justify-center place-content-center sm:h-96' 
+    style={{backgroundImage:"url('https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true')" }}>
+    <div className='text-white font-bold text-5xl'>Contact</div>  
     </div>
+
     <div className='w-full py-9 px-4 grid grid-cols-2 mb-3 sm:grid-cols-1  gap-[20px]  md:gap-[30px]'>
 <div className='h-[290px] space-y-2 p-1 text-start shadow-md shadow-gray-400  '>
   <div className='w-full mb-6 text-center'> <p className='text-black text-xl font-bold  '>Contact details</p></div>

@@ -1,31 +1,35 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
-import { FaBars,FaTimes } from 'react-icons/fa'
-function Header() {
+import { FaBars } from 'react-icons/fa'
+ const headerdiv="fixed flex px-3 justify-between w-[98%] h-[55px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50  "
+const navlink=" hover:bg-gray-400    "
+ function Header() {
   const[open,setopen]=useState(false)
-  const headerdiv="fixed flex pr-3 justify-between w-[98%] h-[50px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50 md:w-[100%] sm:w-[100%] top-[0px]"
+ 
  const navbars=()=>{
   setopen(!open)
  }
   return (
     <div>
       <div className={headerdiv}>
-      <h2 className=' font-bold text-black text-4xl ml-3'>Travel</h2>
-      <div className=' flex text-xl font-bold cursor-pointer space-x-7   '>
+      <h2 className="text-2xl font-bold">Travel</h2>
+      <div className=''>
+      <div className="flex text-xl font-bold cursor-pointer space-x-7  sm:hidden">
       <Link to='/'>
-      <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden '>Home</p>
+      <p className={navlink}>Home</p>
       </Link>
       <Link to='/gallery'>
-      <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden'>Gallery</p>
+      <p className={navlink}>Gallery</p>
       </Link>
       <Link to='/about'>
-      <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden'>about</p>
+      <p className={navlink}>about</p>
       </Link>
       <Link to='/contact'>
-      <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden '>Contact</p>
+      <p className={navlink}>Contact</p>
       </Link>
-      <button onClick={navbars}> <FaBars className='text-black hidden sm:block md:block '/></button>
      
+      </div>
+      <button onClick={navbars}> <FaBars className='text-black text-2xl font-bold hidden sm:block  '/></button>
       </div>
        {open&&
       <div className=' hidden rounded-xl shadow-md shadow-gray-300 w-[calc(100%-40px)] h-[400px] bg-gray-400  absolute top-[60px] 
