@@ -13,7 +13,7 @@ const services=[{icon:<FaPlane className='text-4xl mx-auto text-blue-500'/>,
 function Ourservice() {
   return (
     <div className='w-full mt-3  '>
-    <p className='text-3xl font-bold text-black mb-2'>Our service</p>
+    <p className='text-3xl font-bold text-black mb-5'>Our service</p>
     <div className='w-full px-[25px] py-[10px] gap-[15px] text-center grid grid-cols-4 
     sm:grid-cols-1 md:grid-cols-2'>
 {

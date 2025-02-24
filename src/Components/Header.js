@@ -1,17 +1,16 @@
 import React, { useState } from 'react'
-import './Header.css'
 import {Link} from 'react-router-dom'
 import { FaBars,FaTimes } from 'react-icons/fa'
 function Header() {
   const[open,setopen]=useState(false)
-  const headerdiv="fixed flex pr-3 justify-between w-[97%] h-[50px] bg-white top-[20px] left-0 right-0 mx-auto items-center z-50 md:w-[100%] sm:w-[100%] top-[0px]"
+  const headerdiv="fixed flex pr-3 justify-between w-full h-[50px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50 md:w-[100%] sm:w-[100%] top-[0px]"
  const navbars=()=>{
   setopen(!open)
  }
   return (
     <div>
       <div className={headerdiv}>
-      <h2 className=' font-bold text-black text-2xl ml-3'>Travel</h2>
+      <h2 className=' font-bold text-black text-4xl ml-3'>Travel</h2>
       <div className=' flex text-xl font-bold cursor-pointer space-x-7   '>
       <Link to='/'>
       <p className=' hover:bg-gray-400 px-2 md:hidden sm:hidden '>Home</p>

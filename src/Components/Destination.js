@@ -10,8 +10,8 @@ const feature=[{image:'https://github.com/YousafKhan1/Images/blob/main/Images/ga
   ]
 function Destination() {
   return (
-    <div className='w-full px-3 py-2 bg-white'>
-        <h3 className='text-black font-bold text-3xl mb-2'>Featured Destination</h3>
+    <div className='w-full px-3 py-12 bg-white'>
+        <h3 className='text-black font-bold mb-6 text-3xl '>Featured Destination</h3>
         <div className='w-full px-2  grid gap-[10px] grid-cols-4 sm:grid-cols-1 md:grid-cols-2   '>
        {
     feature.map((a,c)=>(
