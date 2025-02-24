@@ -12,7 +12,7 @@ const clients=[{image:'https://github.com/YousafKhan1/Images/blob/main/Images/me
 function Ourclients() {
   return (
     <div className='w-full py-9 '>
-        <p className='mx-auto text-black text-3xl font-bold'>Our clients Says</p>
+        <p className='mx-auto text-black text-3xl mb-5 font-bold'>Our clients Says</p>
         <div className='w-full px-4 py-2 grid gap-[20px] grid-cols-3 sm:grid-cols-1 md:grid-cols-1'>
       {
      clients.map((a,c)=>(

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { FaBars,FaTimes } from 'react-icons/fa'
 function Header() {
   const[open,setopen]=useState(false)
-  const headerdiv="fixed flex pr-3 justify-between w-full h-[50px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50 md:w-[100%] sm:w-[100%] top-[0px]"
+  const headerdiv="fixed flex pr-3 justify-between w-[98%] h-[50px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50 md:w-[100%] sm:w-[100%] top-[0px]"
  const navbars=()=>{
   setopen(!open)
  }
