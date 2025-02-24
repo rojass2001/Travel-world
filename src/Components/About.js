@@ -3,15 +3,15 @@ import { FaEnvelope,FaPhoneAlt ,FaMapMarkerAlt, } from 'react-icons/fa'
 function About() {
   return (
 <div className='w-full '>
-    <div className='h-96  bg-black bg-opacity-50  relative text-white font-bold 
+    <div className='w-full h-96  bg-black bg-opacity-50   text-white font-bold 
      bg-center bg-cover mb-7 md:h-[500px] flex items-center place-content-center' 
     style={{backgroundImage:"url('https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true')" }}>
-    <p className='text-white font-bold  absolute inset-0 text-5xl  '>About</p>  
+    <p className='text-white font-bold   text-5xl  '>About</p>  
     </div>
 
     <div className='w-full  px-4 flex  py-3 mb-3 gap-[20px]'>
     <div className='min-h-[350px] sm:hidden'>
-    <img className='w-full h-full' src="https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true"/>
+    <img className='w-full h-full' src="https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true" />
     </div>
 
     <div className='min-h-[350px] text-black shadow-md shadow-gray-600 p-3 '>
