@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
- const headerdiv="fixed flex px-3 justify-between w-[98%] h-[55px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50  "
+ const headerdiv="fixed flex px-3 justify-between  w-[98%] h-[55px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50  "
 const navlink=" hover:bg-gray-400    "
  function Header() {
   const[open,setopen]=useState(false)
@@ -13,8 +13,8 @@ const navlink=" hover:bg-gray-400    "
     <div>
       <div className={headerdiv}>
       <h2 className="text-2xl font-bold">Travel</h2>
-      <div className=''>
-      <div className="flex text-xl font-bold cursor-pointer space-x-7  sm:hidden">
+      <div className='flex items-center '>
+      <div className="flex  text-xl font-bold cursor-pointer space-x-7  sm:hidden">
       <Link to='/'>
       <p className={navlink}>Home</p>
       </Link>
