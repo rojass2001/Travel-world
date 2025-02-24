@@ -3,10 +3,10 @@ import { FaEnvelope,FaPhoneAlt ,FaMapMarkerAlt, } from 'react-icons/fa'
 function About() {
   return (
 <div className='w-full '>
-    <div className='w-full h-[500px]   bg-black bg-opacity-50   text-white font-bold 
-     bg-center bg-cover mb-7  flex items-center place-content-center sm:h-96' 
+    <div className='w-full h-[500px] md:h-[500px]     text-white font-bold 
+     bg-center bg-cover mb-7  flex items-center justify-center place-content-center sm:h-96' 
     style={{backgroundImage:"url('https://github.com/YousafKhan1/Images/blob/main/Images/hero.png?raw=true')" }}>
-    <p className='text-white font-bold   text-5xl  '>About</p>  
+    <div className='text-white font-bold text-5xl'>About</div>  
     </div>
 
     <div className='w-full  px-4 flex  py-3 mb-3 gap-[20px]'>
