@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
-import Mobileheader from './Mobileheader'
 import { motion } from 'framer-motion'
+import Drawer from './Mobiledrawer'
  const headerdiv="fixed flex px-3 justify-between  w-[98%] h-[55px] bg-white top-[20px] top-0 left-0 right-0 mx-auto items-center z-50  "
 const navlink=" hover:bg-gray-400    "
- function Header() {
+ function Navbar() {
   const[open,setopen]=useState(false)
  
  const navbaropen=()=>{
@@ -13,7 +13,7 @@ const navlink=" hover:bg-gray-400    "
  }
   return (
    
-    <motion.header className={headerdiv}>
+    <motion.nav className={headerdiv}>
         <h2 className="text-2xl font-bold">Travel</h2>
         <div className='flex items-center '>
         <div className="flex  text-xl font-bold cursor-pointer space-x-7  sm:hidden">
@@ -34,10 +34,10 @@ const navlink=" hover:bg-gray-400    "
         <button onClick={navbaropen}> <FaBars className='text-black text-2xl font-bold hidden sm:block  '/></button>
         </div>
         
-            <Mobileheader navbaropen={navbaropen} open={open} />
+            <Drawer navbaropen={navbaropen} open={open} />
           
-    </motion.header>
+    </motion.nav>
   )
 }
 
-export default Header
+export default Navbar

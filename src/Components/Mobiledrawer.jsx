@@ -4,11 +4,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import React from 'react'
 
 
-function Mobileheader({navbaropen,open }) {
+function Drawer({navbaropen,open }) {
     return (
     <AnimatePresence mode="wait">
         {open && (
-        <motion.header
+        <motion.nav
              initial={{ opacity: 0, y: -100 }}
              animate={{ opacity: 1, y: 0 }}
              exit={{ opacity: 0, y: -100 }}
@@ -27,10 +27,10 @@ function Mobileheader({navbaropen,open }) {
                     <Link to='/contact'>
                         <p onClick={navbaropen} className=' px-2  '>Contact</p>
                     </Link>
-        </motion.header>
+        </motion.nav>
             )}
    </AnimatePresence>
   )
 }
 
-export default Mobileheader
+export default Drawer
