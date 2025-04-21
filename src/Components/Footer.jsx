@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebook,FaInstagram,FaTwitter,FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+
 function Footer() {
   return (
  <footer className='w-full bg-gray-900   pt-6 md:pt-[120px]  '>

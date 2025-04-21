@@ -1,4 +1,5 @@
-export const images=['https://github.com/YousafKhan1/Images/blob/main/Images/gal1.jpg?raw=true',
+export const images = [
+  'https://github.com/YousafKhan1/Images/blob/main/Images/gal1.jpg?raw=true',
   'https://github.com/YousafKhan1/Images/blob/main/Images/gal2.jpg?raw=true',
   'https://github.com/YousafKhan1/Images/blob/main/Images/gal3.png?raw=true',
   'https://github.com/YousafKhan1/Images/blob/main/Images/gal4.jpg?raw=true',

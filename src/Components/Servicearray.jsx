@@ -1,4 +1,5 @@
-import{FaPlane,FaHotel,FaUmbrellaBeach,FaConciergeBell,}from 'react-icons/fa'
+import { FaPlane, FaHotel, FaUmbrellaBeach, FaConciergeBell, } from 'react-icons/fa'
+
 export const services = [
     {
       icon: <FaPlane className='text-4xl mx-auto text-blue-500' />,

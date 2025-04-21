@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaEnvelope,FaPhoneAlt ,FaMapMarkerAlt, } from 'react-icons/fa'
+import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, } from 'react-icons/fa'
+
 function Contact() {
   return (
  <div className='w-full  '>
