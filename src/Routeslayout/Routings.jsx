@@ -6,21 +6,22 @@ import Contact from '../pages/Contact';
 import About from '../pages/About';
 import Gallery from '../pages/Gallery'
 import Navbar from '../Components/Navbar';
+
 function Routings() {
   return (
-    <div>
-<Router>
-  <Navbar/>
-  <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/Travel-world' element={<Home/>}/>
-    <Route path='/gallery' element={<Gallery/>}/>
-    <Route path='/contact' element={<Contact/>}/>
-    <Route path='/about' element={<About/>}/>
-  </Routes>
-   <Footer/>
-</Router> 
-    </div>
+    <>
+  <Router>
+    <Navbar/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Travel-world' element={<Home/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/about' element={<About/>}/>
+      </Routes>
+    <Footer/>
+  </Router> 
+    </>
   )
 }
 
