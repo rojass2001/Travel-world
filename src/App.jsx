@@ -1,12 +1,16 @@
+// Importing global styles
 import './App.css';
+
+// Importing the main routing layout of the app
 import Routings from './Routeslayout/Routings';
 
 function App() {
   return (
     <div className="App">
+      {/* Main routing component that includes Navbar, Routes, and Footer */}
       <Routings/>
     </div>
   );
 }
 
-export default App;
+export default App; // Exporting the App component as the default export
