@@ -6,10 +6,10 @@ import Routings from './Routeslayout/Routings';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       {/* Main routing component that includes Navbar, Routes, and Footer */}
-      <Routings/>
-    </div>
+      <Routings />
+    </main>
   );
 }
 
